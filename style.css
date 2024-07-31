@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+
+
+.game {
+
+  height: 400px;
+  width: 400px; 
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  
+}
+
+.box {
+  border: 1px black solid;
+  text-align: center;
+}
+
+.reset {
+  margin-top: 20px;
+}
